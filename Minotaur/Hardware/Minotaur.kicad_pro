@@ -328,12 +328,12 @@
       ""
     ],
     [
-      "5b78be97-96f3-4216-b77c-fe7d8bf95c64",
-      "Host Proc"
-    ],
-    [
       "cfee1b7d-921b-4f5a-873e-6cc7ec27cc53",
       "Analog Front End"
+    ],
+    [
+      "5b78be97-96f3-4216-b77c-fe7d8bf95c64",
+      "Host Proc"
     ]
   ],
   "text_variables": {}

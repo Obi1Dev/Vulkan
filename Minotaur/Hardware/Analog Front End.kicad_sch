@@ -1649,13 +1649,13 @@
   (symbol (lib_id "Device:R_Small") (at 165.1 184.15 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 02d702bd-ebcd-4bca-9f34-467c9694223d)
-    (property "Reference" "R2" (at 167.64 182.88 0)
+    (property "Reference" "R?" (at 167.64 182.88 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 167.64 185.42 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 165.1 184.15 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 165.1 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 165.1 184.15 0)
@@ -1666,12 +1666,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "R2") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "R2") (unit 1)
+          (reference "R216") (unit 1)
         )
       )
     )
@@ -1680,7 +1680,7 @@
   (symbol (lib_id "Device:Q_PMOS_GSD") (at 142.24 107.95 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 04372159-5db0-4637-9002-de0ed81af29e)
-    (property "Reference" "Q4" (at 135.89 106.68 0)
+    (property "Reference" "Q?" (at 135.89 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Q_PMOS_GSD" (at 135.89 109.22 0)
@@ -1698,12 +1698,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "Q4") (unit 1)
+          (reference "Q?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "Q4") (unit 1)
+          (reference "Q202") (unit 1)
         )
       )
     )
@@ -1712,13 +1712,13 @@
   (symbol (lib_id "Device:D_Zener_Small_Filled") (at 152.4 158.75 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 09fc3790-0fd3-42ea-ae81-ab05e2ccf471)
-    (property "Reference" "D2" (at 154.94 157.48 90)
+    (property "Reference" "D?" (at 154.94 157.48 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D_Zener" (at 154.94 160.02 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 152.4 158.75 90)
+    (property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering" (at 152.4 158.75 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 152.4 158.75 90)
@@ -1729,12 +1729,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "D2") (unit 1)
+          (reference "D?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "D2") (unit 1)
+          (reference "D204") (unit 1)
         )
       )
     )
@@ -1743,7 +1743,7 @@
   (symbol (lib_id "power:GND") (at 276.86 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0fdd3ea2-c503-419f-bca7-ebcab1746380)
-    (property "Reference" "#PWR01" (at 276.86 146.05 0)
+    (property "Reference" "#PWR?" (at 276.86 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 276.86 144.78 0)
@@ -1759,12 +1759,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR0205") (unit 1)
         )
       )
     )
@@ -1773,13 +1773,13 @@
   (symbol (lib_id "Device:C_Small") (at 304.8 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 19b451ab-3ae3-4524-993a-75bb7481e5a2)
-    (property "Reference" "C14" (at 307.34 68.5863 0)
+    (property "Reference" "C?" (at 307.34 68.5863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 307.34 71.1263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 304.8 69.85 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 304.8 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 304.8 69.85 0)
@@ -1790,12 +1790,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "C14") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "C14") (unit 1)
+          (reference "C209") (unit 1)
         )
       )
     )
@@ -1804,13 +1804,13 @@
   (symbol (lib_id "Device:C_Small") (at 254 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1c7268be-628c-436e-beea-c4f3ec95dbd1)
-    (property "Reference" "C17" (at 256.54 144.7863 0)
+    (property "Reference" "C?" (at 256.54 144.7863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4u7" (at 256.54 147.3263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 254 146.05 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 254 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 254 146.05 0)
@@ -1821,12 +1821,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "C17") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "C17") (unit 1)
+          (reference "C207") (unit 1)
         )
       )
     )
@@ -1835,13 +1835,13 @@
   (symbol (lib_id "Device:R_Small") (at 165.1 82.55 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1fd65cfe-bbf9-443c-b1d9-9d7f65f6c7f9)
-    (property "Reference" "R16" (at 167.64 81.28 0)
+    (property "Reference" "R?" (at 167.64 81.28 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 167.64 83.82 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 165.1 82.55 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 165.1 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 165.1 82.55 0)
@@ -1852,12 +1852,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "R16") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "R16") (unit 1)
+          (reference "R212") (unit 1)
         )
       )
     )
@@ -1866,7 +1866,7 @@
   (symbol (lib_id "Device:Q_PMOS_GSD") (at 142.24 158.75 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 203333c0-e364-401b-92a4-eb057fe8ebf7)
-    (property "Reference" "Q2" (at 135.89 157.48 0)
+    (property "Reference" "Q?" (at 135.89 157.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Q_PMOS_GSD" (at 135.89 160.02 0)
@@ -1884,12 +1884,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "Q2") (unit 1)
+          (reference "Q?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "Q2") (unit 1)
+          (reference "Q204") (unit 1)
         )
       )
     )
@@ -1898,13 +1898,13 @@
   (symbol (lib_id "Device:D_Small_Filled") (at 311.15 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 29706d14-1920-4514-b31b-cd47bee1d3c9)
-    (property "Reference" "D10" (at 311.15 115.57 0)
+    (property "Reference" "D?" (at 311.15 115.57 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 311.15 118.11 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 311.15 121.92 90)
+    (property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering" (at 311.15 121.92 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 311.15 121.92 90)
@@ -1921,12 +1921,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "D10") (unit 1)
+          (reference "D?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "D10") (unit 1)
+          (reference "D206") (unit 1)
         )
       )
     )
@@ -1935,7 +1935,7 @@
   (symbol (lib_id "power:VCC") (at 276.86 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2b723bf5-771f-443f-b509-6c680e633741)
-    (property "Reference" "#PWR029" (at 276.86 66.04 0)
+    (property "Reference" "#PWR?" (at 276.86 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 276.86 57.15 0)
@@ -1951,12 +1951,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR0204") (unit 1)
         )
       )
     )
@@ -1965,13 +1965,13 @@
   (symbol (lib_id "Device:R_Small") (at 139.7 146.05 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ec701f3-a7fe-4b52-a141-2addbd3530a8)
-    (property "Reference" "R8" (at 142.24 144.78 0)
+    (property "Reference" "R?" (at 142.24 144.78 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100" (at 142.24 147.32 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 139.7 146.05 0)
+    (property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" (at 139.7 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 139.7 146.05 0)
@@ -1982,12 +1982,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "R8") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "R8") (unit 1)
+          (reference "R203") (unit 1)
         )
       )
     )
@@ -1996,7 +1996,7 @@
   (symbol (lib_id "Device:Q_PMOS_GSD") (at 142.24 82.55 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 33305c71-662b-47c4-89d0-e7dc2f8fbab9)
-    (property "Reference" "Q5" (at 135.89 81.28 0)
+    (property "Reference" "Q?" (at 135.89 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Q_PMOS_GSD" (at 135.89 83.82 0)
@@ -2014,12 +2014,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "Q5") (unit 1)
+          (reference "Q?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "Q5") (unit 1)
+          (reference "Q201") (unit 1)
         )
       )
     )
@@ -2028,13 +2028,13 @@
   (symbol (lib_id "Device:C_Small") (at 177.8 209.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4da12768-4150-4da3-bf81-8217a9fc1bfe)
-    (property "Reference" "C1" (at 180.34 208.2863 0)
+    (property "Reference" "C?" (at 180.34 208.2863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 180.34 210.8263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 177.8 209.55 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 177.8 209.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 177.8 209.55 0)
@@ -2045,12 +2045,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "C1") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "C1") (unit 1)
+          (reference "C206") (unit 1)
         )
       )
     )
@@ -2059,13 +2059,13 @@
   (symbol (lib_id "Device:R_Small") (at 215.9 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 554e5fe4-5959-43dd-bfc1-ac61be2d2373)
-    (property "Reference" "R24" (at 218.44 81.28 0)
+    (property "Reference" "R?" (at 218.44 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 218.44 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 215.9 82.55 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 215.9 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 215.9 82.55 0)
@@ -2076,12 +2076,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "R24") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "R24") (unit 1)
+          (reference "R217") (unit 1)
         )
       )
     )
@@ -2090,13 +2090,13 @@
   (symbol (lib_id "Device:D_Zener_Small_Filled") (at 152.4 133.35 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 59436a7b-7cb2-42f6-8223-8ff1f6271767)
-    (property "Reference" "D3" (at 154.94 132.08 90)
+    (property "Reference" "D?" (at 154.94 132.08 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D_Zener" (at 154.94 134.62 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 152.4 133.35 90)
+    (property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering" (at 152.4 133.35 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 152.4 133.35 90)
@@ -2107,12 +2107,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "D3") (unit 1)
+          (reference "D?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "D3") (unit 1)
+          (reference "D203") (unit 1)
         )
       )
     )
@@ -2121,13 +2121,13 @@
   (symbol (lib_id "Device:C_Small") (at 330.2 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5e2ca949-9089-49f3-aa13-7f99e78260cc)
-    (property "Reference" "C18" (at 332.74 106.6863 0)
+    (property "Reference" "C?" (at 332.74 106.6863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNF" (at 332.74 109.2263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 330.2 107.95 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 330.2 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 330.2 107.95 0)
@@ -2138,12 +2138,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "C18") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "C18") (unit 1)
+          (reference "C212") (unit 1)
         )
       )
     )
@@ -2152,13 +2152,13 @@
   (symbol (lib_id "Device:R_Small") (at 158.75 127 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5f525fb5-1028-4238-888c-4a4b5a78090c)
-    (property "Reference" "R9" (at 158.75 121.92 90)
+    (property "Reference" "R?" (at 158.75 121.92 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 158.75 124.46 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 158.75 127 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 158.75 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 158.75 127 0)
@@ -2169,12 +2169,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "R9") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "R9") (unit 1)
+          (reference "R208") (unit 1)
         )
       )
     )
@@ -2183,13 +2183,13 @@
   (symbol (lib_id "Device:R_Small") (at 158.75 152.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6b5e3651-bb51-4dc2-ac53-5f3efc1b01de)
-    (property "Reference" "R6" (at 158.75 147.32 90)
+    (property "Reference" "R?" (at 158.75 147.32 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 158.75 149.86 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 158.75 152.4 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 158.75 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 158.75 152.4 0)
@@ -2200,12 +2200,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "R6") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "R6") (unit 1)
+          (reference "R209") (unit 1)
         )
       )
     )
@@ -2214,13 +2214,13 @@
   (symbol (lib_id "Device:R_Small") (at 165.1 158.75 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6bc95ecd-ecc8-48ff-a8c6-194255e5b48f)
-    (property "Reference" "R7" (at 167.64 157.48 0)
+    (property "Reference" "R?" (at 167.64 157.48 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 167.64 160.02 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 165.1 158.75 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 165.1 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 165.1 158.75 0)
@@ -2231,12 +2231,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "R7") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "R7") (unit 1)
+          (reference "R215") (unit 1)
         )
       )
     )
@@ -2245,13 +2245,13 @@
   (symbol (lib_id "Device:D_Zener_Small_Filled") (at 152.4 82.55 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6ec6bd75-5cf0-4d5e-ba87-72b2d4b4bf0c)
-    (property "Reference" "D5" (at 154.94 81.28 90)
+    (property "Reference" "D?" (at 154.94 81.28 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D_Zener" (at 154.94 83.82 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 152.4 82.55 90)
+    (property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering" (at 152.4 82.55 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 152.4 82.55 90)
@@ -2262,12 +2262,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "D5") (unit 1)
+          (reference "D?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "D5") (unit 1)
+          (reference "D201") (unit 1)
         )
       )
     )
@@ -2276,7 +2276,7 @@
   (symbol (lib_id "Device:Q_PMOS_GSD") (at 142.24 133.35 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 70a32c1a-eaf5-4513-a7a2-8b044dd541cd)
-    (property "Reference" "Q3" (at 135.89 132.08 0)
+    (property "Reference" "Q?" (at 135.89 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Q_PMOS_GSD" (at 135.89 134.62 0)
@@ -2294,12 +2294,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "Q3") (unit 1)
+          (reference "Q?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "Q3") (unit 1)
+          (reference "Q203") (unit 1)
         )
       )
     )
@@ -2308,7 +2308,7 @@
   (symbol (lib_id "power:GND") (at 254 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 712555b5-c088-476c-aa1f-925e8872d184)
-    (property "Reference" "#PWR011" (at 254 160.02 0)
+    (property "Reference" "#PWR?" (at 254 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 254 158.75 0)
@@ -2324,12 +2324,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR0203") (unit 1)
         )
       )
     )
@@ -2338,7 +2338,7 @@
   (symbol (lib_id "power:GND") (at 177.8 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 75cb25d1-576a-4236-9968-7bd6b9e1db03)
-    (property "Reference" "#PWR04" (at 177.8 194.31 0)
+    (property "Reference" "#PWR?" (at 177.8 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 177.8 193.04 0)
@@ -2354,12 +2354,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR0201") (unit 1)
         )
       )
     )
@@ -2368,7 +2368,7 @@
   (symbol (lib_id "power:GND") (at 330.2 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7c6c90e0-e46b-44fe-964b-e703f8e3dadc)
-    (property "Reference" "#PWR013" (at 330.2 121.92 0)
+    (property "Reference" "#PWR?" (at 330.2 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 330.2 120.65 0)
@@ -2384,12 +2384,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR0209") (unit 1)
         )
       )
     )
@@ -2398,13 +2398,13 @@
   (symbol (lib_id "Device:R_Small") (at 158.75 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 82edf7c6-85f8-4f46-bde5-2398edd95529)
-    (property "Reference" "R12" (at 158.75 96.52 90)
+    (property "Reference" "R?" (at 158.75 96.52 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 158.75 99.06 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 158.75 101.6 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 158.75 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 158.75 101.6 0)
@@ -2415,12 +2415,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "R12") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "R12") (unit 1)
+          (reference "R207") (unit 1)
         )
       )
     )
@@ -2429,7 +2429,7 @@
   (symbol (lib_id "Device:Q_PMOS_GSD") (at 142.24 184.15 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 837c0a85-2c3d-48e0-b0da-6c1bf325a915)
-    (property "Reference" "Q1" (at 135.89 182.88 0)
+    (property "Reference" "Q?" (at 135.89 182.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Q_PMOS_GSD" (at 135.89 185.42 0)
@@ -2447,12 +2447,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "Q1") (unit 1)
+          (reference "Q?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "Q1") (unit 1)
+          (reference "Q205") (unit 1)
         )
       )
     )
@@ -2461,13 +2461,13 @@
   (symbol (lib_id "Device:C_Small") (at 177.8 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 879ba0f5-2ae6-436d-946f-5891a77a4ff0)
-    (property "Reference" "C3" (at 180.34 163.8363 0)
+    (property "Reference" "C?" (at 180.34 163.8363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 180.34 166.3763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 177.8 165.1 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 177.8 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 177.8 165.1 0)
@@ -2478,12 +2478,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "C3") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "C3") (unit 1)
+          (reference "C204") (unit 1)
         )
       )
     )
@@ -2492,13 +2492,13 @@
   (symbol (lib_id "Device:R_Small") (at 292.1 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8cb1cf87-da1d-4a9b-86bb-8ad5df56aa12)
-    (property "Reference" "R26" (at 294.64 144.78 0)
+    (property "Reference" "R?" (at 294.64 144.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 294.64 147.32 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 292.1 146.05 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 292.1 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 292.1 146.05 0)
@@ -2509,12 +2509,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "R26") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "R26") (unit 1)
+          (reference "R218") (unit 1)
         )
       )
     )
@@ -2523,13 +2523,13 @@
   (symbol (lib_id "Device:R_Small") (at 158.75 76.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d801400-9dc5-486b-860c-b3d53fdfe58f)
-    (property "Reference" "R15" (at 158.75 71.12 90)
+    (property "Reference" "R?" (at 158.75 71.12 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 158.75 73.66 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 158.75 76.2 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 158.75 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 158.75 76.2 0)
@@ -2540,12 +2540,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "R15") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "R15") (unit 1)
+          (reference "R206") (unit 1)
         )
       )
     )
@@ -2554,7 +2554,7 @@
   (symbol (lib_id "power:GND") (at 177.8 213.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 95370f0f-422c-4942-8395-732b9d2ced25)
-    (property "Reference" "#PWR06" (at 177.8 219.71 0)
+    (property "Reference" "#PWR?" (at 177.8 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 177.8 218.44 0)
@@ -2570,12 +2570,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR0202") (unit 1)
         )
       )
     )
@@ -2584,13 +2584,13 @@
   (symbol (lib_id "Device:R_Small") (at 139.7 171.45 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 959e9078-ab8b-4cd3-942f-cc78422b0858)
-    (property "Reference" "R5" (at 142.24 170.18 0)
+    (property "Reference" "R?" (at 142.24 170.18 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100" (at 142.24 172.72 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 139.7 171.45 0)
+    (property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" (at 139.7 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 139.7 171.45 0)
@@ -2601,12 +2601,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "R5") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "R5") (unit 1)
+          (reference "R204") (unit 1)
         )
       )
     )
@@ -2615,13 +2615,13 @@
   (symbol (lib_id "Device:R_Small") (at 158.75 177.8 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c635a25-e650-45e7-893e-337ed2e0978c)
-    (property "Reference" "R3" (at 158.75 172.72 90)
+    (property "Reference" "R?" (at 158.75 172.72 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 158.75 175.26 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 158.75 177.8 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 158.75 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 158.75 177.8 0)
@@ -2632,12 +2632,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "R3") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "R3") (unit 1)
+          (reference "R210") (unit 1)
         )
       )
     )
@@ -2646,13 +2646,13 @@
   (symbol (lib_id "Device:C_Small") (at 177.8 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a993f6e7-982e-41bd-bbb5-c5681a8d13ff)
-    (property "Reference" "C4" (at 180.34 138.4363 0)
+    (property "Reference" "C?" (at 180.34 138.4363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 180.34 140.9763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 177.8 139.7 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 177.8 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 177.8 139.7 0)
@@ -2663,12 +2663,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "C4") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "C4") (unit 1)
+          (reference "C203") (unit 1)
         )
       )
     )
@@ -2677,7 +2677,7 @@
   (symbol (lib_id "power:GND") (at 292.1 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b1990114-ee93-4d8f-9d1f-161beaccf577)
-    (property "Reference" "#PWR015" (at 292.1 160.02 0)
+    (property "Reference" "#PWR?" (at 292.1 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 292.1 158.75 0)
@@ -2693,12 +2693,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR0206") (unit 1)
         )
       )
     )
@@ -2707,13 +2707,13 @@
   (symbol (lib_id "Device:C_Small") (at 177.8 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b38a9cb8-e2d8-4f53-9690-da992a2fdcef)
-    (property "Reference" "C5" (at 180.34 113.0363 0)
+    (property "Reference" "C?" (at 180.34 113.0363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 180.34 115.5763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 177.8 114.3 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 177.8 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 177.8 114.3 0)
@@ -2724,12 +2724,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "C5") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "C5") (unit 1)
+          (reference "C202") (unit 1)
         )
       )
     )
@@ -2738,7 +2738,7 @@
   (symbol (lib_id "Battery_Management:BQ76920PW") (at 276.86 119.38 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b43ae4e6-3bbc-47c4-8ff1-7bf968c514ec)
-    (property "Reference" "U1" (at 287.02 100.33 0)
+    (property "Reference" "U?" (at 287.02 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BQ76920PW" (at 289.56 138.43 0)
@@ -2773,12 +2773,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "U1") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "U1") (unit 1)
+          (reference "U201") (unit 1)
         )
       )
     )
@@ -2787,13 +2787,13 @@
   (symbol (lib_id "Device:R_Small") (at 165.1 107.95 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b4cf573c-b67d-4b29-b22c-f3ef5a8a569b)
-    (property "Reference" "R13" (at 167.64 106.68 0)
+    (property "Reference" "R?" (at 167.64 106.68 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 167.64 109.22 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 165.1 107.95 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 165.1 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 165.1 107.95 0)
@@ -2804,12 +2804,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "R13") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "R13") (unit 1)
+          (reference "R213") (unit 1)
         )
       )
     )
@@ -2818,13 +2818,13 @@
   (symbol (lib_id "Device:C_Small") (at 304.8 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b60bdc22-1873-4c93-94b3-1b84284089c6)
-    (property "Reference" "C19" (at 307.34 144.7863 0)
+    (property "Reference" "C?" (at 307.34 144.7863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 307.34 147.3263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 304.8 146.05 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 304.8 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 304.8 146.05 0)
@@ -2835,12 +2835,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "C19") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "C19") (unit 1)
+          (reference "C210") (unit 1)
         )
       )
     )
@@ -2849,13 +2849,13 @@
   (symbol (lib_id "Device:D_Zener_Small_Filled") (at 152.4 184.15 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b678c3b3-f93b-40b5-b30b-0fe491f698d3)
-    (property "Reference" "D1" (at 154.94 182.88 90)
+    (property "Reference" "D?" (at 154.94 182.88 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D_Zener" (at 154.94 185.42 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 152.4 184.15 90)
+    (property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering" (at 152.4 184.15 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 152.4 184.15 90)
@@ -2866,12 +2866,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "D1") (unit 1)
+          (reference "D?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "D1") (unit 1)
+          (reference "D205") (unit 1)
         )
       )
     )
@@ -2880,13 +2880,13 @@
   (symbol (lib_id "Device:R_Small") (at 139.7 95.25 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b8fffcd5-3a80-4c3d-a9da-2854bf1a257a)
-    (property "Reference" "R14" (at 142.24 93.98 0)
+    (property "Reference" "R?" (at 142.24 93.98 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100" (at 142.24 96.52 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 139.7 95.25 0)
+    (property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" (at 139.7 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 139.7 95.25 0)
@@ -2897,12 +2897,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "R14") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "R14") (unit 1)
+          (reference "R201") (unit 1)
         )
       )
     )
@@ -2911,13 +2911,13 @@
   (symbol (lib_id "Device:R_Small") (at 317.5 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bf0b5736-ae2e-417b-ad32-6782386561ff)
-    (property "Reference" "R25" (at 320.04 106.68 0)
+    (property "Reference" "R?" (at 320.04 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 320.04 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 317.5 107.95 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 317.5 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 317.5 107.95 0)
@@ -2928,12 +2928,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "R25") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "R25") (unit 1)
+          (reference "R219") (unit 1)
         )
       )
     )
@@ -2942,7 +2942,7 @@
   (symbol (lib_id "power:GND") (at 304.8 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c7726c35-879d-4aa6-a77e-5fdb5514abe8)
-    (property "Reference" "#PWR014" (at 304.8 160.02 0)
+    (property "Reference" "#PWR?" (at 304.8 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 304.8 158.75 0)
@@ -2958,12 +2958,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR0207") (unit 1)
         )
       )
     )
@@ -2972,13 +2972,13 @@
   (symbol (lib_id "Device:NetTie_2") (at 158.75 63.5 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c84daca6-6a91-4240-9189-0564cf567b32)
-    (property "Reference" "NT3" (at 158.75 58.42 0)
+    (property "Reference" "NT?" (at 158.75 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "NetTie_2" (at 158.75 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 158.75 63.5 0)
+    (property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm" (at 158.75 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 158.75 63.5 0)
@@ -2989,12 +2989,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "NT3") (unit 1)
+          (reference "NT?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "NT3") (unit 1)
+          (reference "NT201") (unit 1)
         )
       )
     )
@@ -3003,13 +3003,13 @@
   (symbol (lib_id "Device:R_Small") (at 165.1 133.35 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c9a0fa31-619e-42f1-9eaa-8d805ee34d07)
-    (property "Reference" "R10" (at 167.64 132.08 0)
+    (property "Reference" "R?" (at 167.64 132.08 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 167.64 134.62 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 165.1 133.35 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 165.1 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 165.1 133.35 0)
@@ -3020,12 +3020,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "R10") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "R10") (unit 1)
+          (reference "R214") (unit 1)
         )
       )
     )
@@ -3034,13 +3034,13 @@
   (symbol (lib_id "Device:R_Small") (at 158.75 203.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ca599c5b-abe1-4ce5-bf23-4d694a3d9236)
-    (property "Reference" "R1" (at 158.75 198.12 90)
+    (property "Reference" "R?" (at 158.75 198.12 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 158.75 200.66 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 158.75 203.2 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 158.75 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 158.75 203.2 0)
@@ -3051,12 +3051,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "R1") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "R1") (unit 1)
+          (reference "R211") (unit 1)
         )
       )
     )
@@ -3065,13 +3065,13 @@
   (symbol (lib_id "Device:C_Small") (at 177.8 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cd4a6963-fa70-4b1f-8aca-a6291b257fae)
-    (property "Reference" "C2" (at 180.34 182.8863 0)
+    (property "Reference" "C?" (at 180.34 182.8863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 180.34 185.4263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 177.8 184.15 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 177.8 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 177.8 184.15 0)
@@ -3082,12 +3082,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "C2") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "C2") (unit 1)
+          (reference "C205") (unit 1)
         )
       )
     )
@@ -3096,13 +3096,13 @@
   (symbol (lib_id "Device:R_Small") (at 139.7 120.65 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid da04afd1-5ab7-4917-bd89-41021c1ca925)
-    (property "Reference" "R11" (at 142.24 119.38 0)
+    (property "Reference" "R?" (at 142.24 119.38 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100" (at 142.24 121.92 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 139.7 120.65 0)
+    (property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" (at 139.7 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 139.7 120.65 0)
@@ -3113,12 +3113,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "R11") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "R11") (unit 1)
+          (reference "R202") (unit 1)
         )
       )
     )
@@ -3127,13 +3127,13 @@
   (symbol (lib_id "Device:D_Zener_Small_Filled") (at 152.4 107.95 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid da914d52-c674-4d91-9a52-1543cbcc81dc)
-    (property "Reference" "D4" (at 154.94 106.68 90)
+    (property "Reference" "D?" (at 154.94 106.68 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D_Zener" (at 154.94 109.22 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 152.4 107.95 90)
+    (property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering" (at 152.4 107.95 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 152.4 107.95 90)
@@ -3144,12 +3144,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "D4") (unit 1)
+          (reference "D?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "D4") (unit 1)
+          (reference "D202") (unit 1)
         )
       )
     )
@@ -3158,7 +3158,7 @@
   (symbol (lib_id "power:GND") (at 317.5 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e9915699-17ab-4fd8-a727-55b3c3219198)
-    (property "Reference" "#PWR010" (at 317.5 83.82 0)
+    (property "Reference" "#PWR?" (at 317.5 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 317.5 82.55 0)
@@ -3174,12 +3174,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR0208") (unit 1)
         )
       )
     )
@@ -3188,13 +3188,13 @@
   (symbol (lib_id "Device:C_Small") (at 292.1 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea486af6-48a4-43c8-9b47-3fbcc6263c8e)
-    (property "Reference" "C16" (at 294.64 69.8563 0)
+    (property "Reference" "C?" (at 294.64 69.8563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4u7" (at 294.64 72.3963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 292.1 71.12 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 292.1 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 292.1 71.12 0)
@@ -3205,12 +3205,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "C16") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "C16") (unit 1)
+          (reference "C208") (unit 1)
         )
       )
     )
@@ -3219,13 +3219,13 @@
   (symbol (lib_id "Device:C_Small") (at 177.8 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ec15aa6e-f63f-47d6-be55-47c9b6db05ce)
-    (property "Reference" "C6" (at 180.34 87.6363 0)
+    (property "Reference" "C?" (at 180.34 87.6363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 180.34 90.1763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 177.8 88.9 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 177.8 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 177.8 88.9 0)
@@ -3236,12 +3236,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "C6") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "C6") (unit 1)
+          (reference "C201") (unit 1)
         )
       )
     )
@@ -3250,13 +3250,13 @@
   (symbol (lib_id "Device:R_Small") (at 139.7 196.85 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f72e33f5-5874-456b-8091-cc80245b1304)
-    (property "Reference" "R4" (at 142.24 195.58 0)
+    (property "Reference" "R?" (at 142.24 195.58 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100" (at 142.24 198.12 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 139.7 196.85 0)
+    (property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" (at 139.7 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 139.7 196.85 0)
@@ -3267,12 +3267,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "R4") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "R4") (unit 1)
+          (reference "R205") (unit 1)
         )
       )
     )
@@ -3281,13 +3281,13 @@
   (symbol (lib_id "Device:C_Small") (at 317.5 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid faf480d6-2269-4428-93d8-235bdb8c2606)
-    (property "Reference" "C15" (at 320.04 68.5863 0)
+    (property "Reference" "C?" (at 320.04 68.5863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 320.04 71.1263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 317.5 69.85 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 317.5 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 317.5 69.85 0)
@@ -3298,12 +3298,12 @@
     (instances
       (project "Vulkan Minotaur"
         (path "/9e7f77b1-4062-457e-94ed-2b310684b76c/dc953875-eaac-402b-881e-9eddfbb292a3"
-          (reference "C15") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "Minotaur"
         (path "/e5aec699-cbb3-4a0a-85fe-d16ec3d6a5c9/cfee1b7d-921b-4f5a-873e-6cc7ec27cc53"
-          (reference "C15") (unit 1)
+          (reference "C211") (unit 1)
         )
       )
     )
